@@ -1,8 +1,8 @@
 from selenium import webdriver
 import os
 import time
-
-browser = webdriver.Chrome("/usr/bin/chromedriver") 
+#download link for chrome drivers https://chromedriver.chromium.org/downloads
+browser = webdriver.Chrome("PATH TO CHROMEDRIVERS") 
 browser.maximize_window() 
 
 #URL for eLab
